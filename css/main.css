@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-menu {
+  background-color: #ff7575;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-itemT {
+  cursor: pointer;
+  transition: color 0.2s linear;
+  color: white;
+  transition: all 0.2s;
+}
+.nav-itemT:hover {
+  background-color: #000000 !important;
+  border-radius: 5px;
+}
+
+.banner {
+  height: 80vh;
+  background: url(/images/back.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.weAre {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ff7575;
+}
+
+.cardT {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.4s ease-in;
+}
+.cardT:hover {
+  color: #ffffff !important;
+  background-color: #ff7575;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 16px 0 rgba(0, 0, 0, 0.19);
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.picTitle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #ff7575;
+  color: #ffffff;
+  font-size: 20px;
+}
+.contacte h4 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.contacte div {
+  display: flex;
+  color: #ffffff;
+}
+.emailer h4 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.helpe h4 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.helpe p {
+  color: #ffffff;
+}

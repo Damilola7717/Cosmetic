@@ -30,7 +30,10 @@ html {
   background-size: cover;
   background-attachment: fixed;
 }
-
+.logo33 {
+  width: 500px;
+  height: auto;
+}
 .weAre {
   font-size: 25px;
   font-weight: bold;
@@ -75,4 +78,13 @@ html {
 }
 .helpe p {
   color: #ffffff;
+}
+:root {
+  --animate-delay: 0.5s;
+}
+@media (max-width: 500px) {
+  .logo33 {
+    width: 320px;
+    height: auto;
+  }
 }

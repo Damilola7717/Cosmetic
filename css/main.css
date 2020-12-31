@@ -79,12 +79,53 @@ html {
 .helpe p {
   color: #ffffff;
 }
-:root {
-  --animate-delay: 0.5s;
+.modalX {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  font-size: 50px;
+  z-index: 12;
+  color: #ff7575 !important;
+}
+
+.overDiv {
+  transition: all 0.2s ease-out;
+}
+.overDiv:hover {
+  background-color: #ff7575 !important;
+}
+.overI {
+  transition: all 0.2s ease-out;
+}
+.overI:hover {
+  color: #ff7575 !important;
+}
+.wow {
+  animation-delay: 0.5s;
+}
+.zoom-in {
+  transform: scale(0.7) !important;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  /* display: block !important; */
+}
+
+.zoom-in.show {
+  opacity: 1;
+  transform: scale(1) !important;
+  transform: none;
 }
 @media (max-width: 500px) {
   .logo33 {
     width: 320px;
     height: auto;
+  }
+  .listM {
+    margin-top: -20px;
+    border-top: 2px solid #f3f3f3;
   }
 }
